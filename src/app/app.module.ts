@@ -5,6 +5,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatIconModule } from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -30,6 +31,7 @@ import { LandingComponent } from './components/landing/landing.component';
     MatIconModule,
     MatButtonModule,
     MatCardModule,
+    MatGridListModule,
     BrowserAnimationsModule
   ],
   exports : [
@@ -37,7 +39,8 @@ import { LandingComponent } from './components/landing/landing.component';
     MatSliderModule,
     MatIconModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent],
