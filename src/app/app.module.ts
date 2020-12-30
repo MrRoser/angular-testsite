@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LandingComponent } from './components/landing/landing.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 // const materialModules = [
 //   MatIconModule
@@ -22,7 +23,8 @@ import { LandingComponent } from './components/landing/landing.component';
   declarations: [
     AppComponent,
     NavigationBarComponent,
-    LandingComponent
+    LandingComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
