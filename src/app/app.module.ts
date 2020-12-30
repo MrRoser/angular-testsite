@@ -6,6 +6,7 @@ import { MatIconModule } from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -32,6 +33,7 @@ import { LandingComponent } from './components/landing/landing.component';
     MatButtonModule,
     MatCardModule,
     MatGridListModule,
+    FlexLayoutModule,
     BrowserAnimationsModule
   ],
   exports : [
@@ -40,7 +42,8 @@ import { LandingComponent } from './components/landing/landing.component';
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent],
